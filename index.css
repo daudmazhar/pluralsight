@@ -1,5 +1,5 @@
 body {
-  background-color: #181818;
+  background-color: #1A1919;
 }
 
 a:hover {
@@ -46,4 +46,16 @@ a.tab-link.active::after {
 .tab-link:hover {
   text-decoration: none;
   color: #aaa;
+}
+
+.card-entry{
+  background: none;
+  color: white;
+  border-bottom: 1px #4f4f4f;
+  border-radius: 0px;
+  border-style: none none solid none;
+}
+
+.entry-tag{
+  font-size: 15px;
 }
