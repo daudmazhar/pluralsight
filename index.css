@@ -83,3 +83,219 @@ a.tab-link.active::after {
 .accordion-button::after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
+
+
+.glyphicon-search {
+  font-size: 20px;
+}
+.btn-default {
+  background-color: transparent;
+  background-image: url(main/images/search-chunky.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 50% center;
+  color: #fff;
+  border-style: none;
+  width: 46px;
+  margin: 10px 0;
+  padding: 0 30px;
+  border-left: 1px solid #555;
+}
+.form-control {
+  font-family: ps commons bold, Helvetica, Roboto, Arial, sans-serif;
+  font-size: 16px;
+  background: 0 0;
+  border: none;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 10px 30px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  box-shadow: unset;
+  height: 55px;
+}
+
+.browse-search-buttons {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 2px #fff;
+  border-radius: 3px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.global-footer.aem-component {
+  background-color: #222;
+  padding: 0 80px;
+}
+
+.footer-links-area.aem-component > ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-link-group.aem-component {
+  margin: 75px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link-group.aem-component > h2.group-label {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 10px 10px 0;
+}
+
+.footer-link-group.aem-component ul {
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+.aem-Grid {
+  display: block;
+  width: 100%;
+}
+
+.aem-Grid.aem-Grid--default--12 > .aem-GridColumn.aem-GridColumn--default--12 {
+  float: left;
+  clear: none;
+  width: 100%;
+}
+
+.aem-GridColumn {
+  box-sizing: border-box;
+  clear: both;
+}
+
+.footer-link-group.aem-component ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-link.aem-component {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links-area.aem-component > ul > li {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-language-selector-component.aem-component {
+  width: 100%;
+  border-top: 1px solid #363638;
+  border-bottom: 1px solid #363638;
+  padding: 25px 0;
+  text-align: left;
+}
+
+.footer-language-selector-component.aem-component ul.languages {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-language-selector-component.aem-component ul.languages > li.language {
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.footer-bottom.aem-component {
+  border-top: 1px solid #363638;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-bottom.aem-component > .footer-bottom-left {
+  flex: 1;
+  display: flex;
+}
+
+.footer-bottom.aem-component > .footer-bottom-left > .footer-copyright {
+  color: #aaa;
+  font-size: 12px;
+  display: flex;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+.footer-bottom.aem-component > .footer-bottom-right {
+  display: flex;
+  min-width: 5%;
+}
+
+.footer-bottom.aem-component > .footer-bottom-right > .footer-bottom-right-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-bottom.aem-component > .footer-bottom-right > .footer-bottom-right-list.link {
+  min-width: 130px;
+}
+
+.footer-bottom.aem-component > .footer-bottom-right > .footer-bottom-right-list.link a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 18px;
+  border-bottom: none;
+}
+
+.footer-social-icon.aem-component > a.social-link {
+  height: 30px;
+  width: 30px;
+}
+
+.footer-social-icon.aem-component {
+  min-width: 5%;
+  margin-left: 16px;
+}
+
+
+.logo {
+  border: none;
+  display: block;
+  max-width: 164px;
+  height: auto;
+}
+
+.footer-bottom.aem-component>.footer-bottom-left>.logo-link {
+  display: flex;
+}
+
+.footer-bottom.aem-component>.footer-bottom-left>.logo-link>.logo {
+  width: 34px;
+  height: 34px;
+  margin-right: 20px;
+}
+
+.footer-bottom.aem-component>.footer-bottom-right>.footer-bottom-right-list .link {
+  min-width: 130px;
+}
+
+a:link { 
+    color: #7c7c7d; 
+  }  
+
+a:visited {   color: #7c7c7d; }  
+
+a:hover {   
+  color: white;
+  text-decoration: none;
+ }  
+
+a:active {   color: #7c7c7d; }
