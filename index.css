@@ -129,163 +129,7 @@ a.tab-link.active::after {
   justify-content: center;
 }
 
-.global-footer.aem-component {
-  background-color: #222;
-  padding: 0 80px;
-}
 
-.footer-links-area.aem-component > ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.footer-link-group.aem-component {
-  margin: 75px 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-link-group.aem-component > h2.group-label {
-  color: #fff;
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 20px 10px 10px 0;
-}
-
-.footer-link-group.aem-component ul {
-  margin: 20px 0 0;
-  padding: 0;
-}
-
-.aem-Grid {
-  display: block;
-  width: 100%;
-}
-
-.aem-Grid.aem-Grid--default--12 > .aem-GridColumn.aem-GridColumn--default--12 {
-  float: left;
-  clear: none;
-  width: 100%;
-}
-
-.aem-GridColumn {
-  box-sizing: border-box;
-  clear: both;
-}
-
-.footer-link-group.aem-component ul li {
-  padding: 0;
-  margin: 0;
-}
-
-.footer-link.aem-component {
-  padding: 0;
-  margin: 0;
-}
-
-.footer-links-area.aem-component > ul > li {
-  padding: 0;
-  margin: 0;
-}
-
-.footer-language-selector-component.aem-component {
-  width: 100%;
-  border-top: 1px solid #363638;
-  border-bottom: 1px solid #363638;
-  padding: 25px 0;
-  text-align: left;
-}
-
-.footer-language-selector-component.aem-component ul.languages {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-.footer-language-selector-component.aem-component ul.languages > li.language {
-  display: inline-block;
-  margin: 0;
-  padding: 0 10px;
-}
-
-.footer-bottom.aem-component {
-  border-top: 1px solid #363638;
-  padding-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.footer-bottom.aem-component > .footer-bottom-left {
-  flex: 1;
-  display: flex;
-}
-
-.footer-bottom.aem-component > .footer-bottom-left > .footer-copyright {
-  color: #aaa;
-  font-size: 12px;
-  display: flex;
-  vertical-align: top;
-  padding-top: 10px;
-}
-
-.footer-bottom.aem-component > .footer-bottom-right {
-  display: flex;
-  min-width: 5%;
-}
-
-.footer-bottom.aem-component > .footer-bottom-right > .footer-bottom-right-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.footer-bottom.aem-component > .footer-bottom-right > .footer-bottom-right-list.link {
-  min-width: 130px;
-}
-
-.footer-bottom.aem-component > .footer-bottom-right > .footer-bottom-right-list.link a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 12px;
-  line-height: 18px;
-  border-bottom: none;
-}
-
-.footer-social-icon.aem-component > a.social-link {
-  height: 30px;
-  width: 30px;
-}
-
-.footer-social-icon.aem-component {
-  min-width: 5%;
-  margin-left: 16px;
-}
-
-
-.logo {
-  border: none;
-  display: block;
-  max-width: 164px;
-  height: auto;
-}
-
-.footer-bottom.aem-component>.footer-bottom-left>.logo-link {
-  display: flex;
-}
-
-.footer-bottom.aem-component>.footer-bottom-left>.logo-link>.logo {
-  width: 34px;
-  height: 34px;
-  margin-right: 20px;
-}
-
-.footer-bottom.aem-component>.footer-bottom-right>.footer-bottom-right-list .link {
-  min-width: 130px;
-}
 
 a:link { 
     color: #7c7c7d; 
@@ -342,3 +186,65 @@ a:active {   color: #7c7c7d; }
   background-color: black;
   border-radius: 25px;
 }
+
+
+.footerHeader{
+   color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-left: 33px;
+  }
+  
+  .languages {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .language {
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px;
+  }
+  
+  .footer-bottom-left {
+    flex: 1;
+    display: flex;
+  }
+  
+  .footer-bottom-left > .footer-copyright {
+    color: #aaa;
+    font-size: 12px;
+    display: flex;
+    vertical-align: top;
+    padding-top: 10px;
+  }
+  
+  .logo-link {
+    display: flex;
+  }
+  
+  .logo {
+    width: 34px;
+    height: 34px;
+    margin-right: 20px;
+  }
+  
+  .globalFooter{
+    background-color: #222;
+  }
+  
+  .footer-bottom-right {
+    display: flex;
+    min-width: 5%;
+  }
+  
+  .social-link {
+    height: 30px;
+    width: 30px;
+  }
+  
